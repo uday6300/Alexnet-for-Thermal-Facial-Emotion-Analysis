@@ -1,0 +1,13 @@
+Although AlexNet is not included in my official research paper, I implemented it in this project out of personal interest and a drive
+to explore how classical deep CNN architectures perform on thermal facial emotion recognition tasks.
+
+Purpose of This Experiment
+1 To experiment with an early, yet highly influential, CNN model on thermal image data, which is relatively underexplored.
+2 To compare performance and learning behavior with deeper models like VGG16 or newer architectures.
+3 To understand transfer learning and feature extraction effectiveness using AlexNet on a domain like emotion classification from 
+thermal imagery.
+
+Why AlexNet?
+1 Proven architecture: AlexNet revolutionized deep learning in 2012 (ImageNet competition) and remains a solid baseline.
+2 Fewer parameters than VGG, making it faster to train — useful when working with smaller or specialized datasets like thermal images.
+3 Good for learning: Its simpler structure makes it easy to visualize filters and understand how convolutional layers learn features.
